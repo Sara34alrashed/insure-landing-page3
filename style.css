@@ -1,0 +1,652 @@
+:root{
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    }
+    @font-face {
+        font-family: 'Italic';
+        src: url(font/DM_Serif_Display/DMSerifDisplay-Italic.ttf);
+    }
+    @font-face {
+        font-family: 'Regular';
+        src: url(font/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'Italic-VariableFont' ;
+        src: url(font/Karla/Karla-Italic-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'VariableFont';
+        src: url(font/Karla/Karla-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'Bold';
+        src: url(font/Karla/static/Karla-Bold.ttf);
+    }
+    @font-face {
+        font-family: 'BoldItalic';
+        src: url(font/Karla/static/Karla-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family:'ExtraBold' ;
+        src: url(font/Karla/static/Karla-ExtraBold.ttf);
+    }
+    @font-face{
+        font-family:'Karla-Regular' ;
+        src: url(font/Karla/static/Karla-Regular.ttf);
+    
+    
+    }
+@font-face {
+    font-family: 'Karla-SemiBold';
+    src: url(font/Karla/static/Karla-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'SemiBoldItalic';
+    src: url(font/Karla/static/Karla-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-VariableFont';
+    src: url(font/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'KumbhSans';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Black.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-Bold';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-ExtraBold';
+    src: url(font/Kumbh_Sans/static/KumbhSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-ExtraLight';
+    src: url(font/Kumbh_Sans/static/KumbhSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-Light';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Light.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-Medium';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-Regular';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-SemiBold';
+    src: url(font/Kumbh_Sans/static/KumbhSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'KumbhSans-Thin';
+    src: url(font/Kumbh_Sans/static/KumbhSans-Thin.ttf);
+}
+@font-face {
+    font-family: 'Outfit-VariableFont';
+    src: url(font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Outfit-Black';
+    src: url(font/Outfit/static/Outfit-Black.ttf);
+}
+
+@font-face {  
+    font-family: 'Outfit-Bold';
+    src: url(font/Outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: 'Outfit-ExtraBold';
+    src: url(font/Outfit/static/Outfit-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Outfit-ExtraLight';
+    src: url(font/Outfit/static/Outfit-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Outfit-Light';
+    src: url(font/Outfit/static/Outfit-Light.ttf);
+}
+
+
+@font-face {
+    font-family: 'Outfit-Medium';
+    src: url(font/Outfit/static/Outfit-Medium.ttf);
+}@font-face {
+    font-family: 'Outfit-Regular';
+    src: url(font/Outfit/static/Outfit-Regular.ttf);
+}@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url(font/Outfit/static/Outfit-SemiBold.ttf);
+}@font-face {
+    font-family: 'Outfit-Thin';
+    src: url(font/Outfit/static/Outfit-Thin.ttf);
+}
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Italic', 'Regular', 'Italic-VariableFont','VariableFont','Bold','BoldItalic','ExtraBold','Karla-Regular','Karla-SemiBold','SemiBoldItalic','KumbhSans-VariableFont', 'KumbhSans','KumbhSans-Bold' ,'KumbhSans-ExtraBold','KumbhSans-ExtraLight','KumbhSans-Light','KumbhSans-SemiBold','KumbhSans-Regular','KumbhSans-Medium','KumbhSans-Thin','Outfit-VariableFont','Outfit-Black','Outfit-Bold','Outfit-ExtraBold','Outfit-ExtraLight','Outfit-Light','Outfit-Medium','Outfit-Regular','Outfit-SemiBold', 'Outfit-Thin';
+    }
+    body {
+        width: 100%;
+        height: 100vh;
+
+    }
+  
+    body nav .list-inf{
+        background-color: var(--DarkViolet);
+height: 660px;
+width: 100%;
+    text-align: center;
+padding: 50px;
+position: relative;
+z-index: 6;
+display: none;
+  
+    }
+    body nav .list-inf .close{
+position: absolute;
+right: 25px;
+top: -57px;
+        width: 33px;
+        border-color: black;
+  
+    }
+    body nav .list-inf ul {
+        list-style: none;
+    }
+    body nav .list-inf ul li{
+        margin: 20px 0;
+    }
+    body nav .list-inf ul li a{
+    
+        color: white;
+        text-decoration: none;
+        color: var(--VeryLightGray);
+        font-weight:normal;
+        font-family: 'Regular' ;
+        letter-spacing: 3px;
+    }
+    body nav .list-inf button{
+    margin-top: 20px;
+        padding: 15px;
+        width: 90%;
+        background-color: transparent;
+        border-color: white;
+        
+        
+    }
+    body nav .list-inf button a{
+        font-weight:normal;
+        font-family: 'Regular' ;
+        letter-spacing: 4px;
+        color: white;
+        text-decoration: none;
+    }
+    body nav .list-inf .patt-nav-M{
+        position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    }
+    body nav .nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+        margin: 25px;
+    }
+  
+    body header :first-child{
+        width: 100%;
+position: relative;
+z-index: 2;
+    }
+    body header :nth-child(2){
+        display: none;
+    }
+    body header .back-img{
+        width: 100%;
+        height: 530px;
+        background-color: var(--DarkViolet);
+position: relative;
+top: -6px;
+
+    }
+    body header .back-img :first-child{
+width: 200px;
+
+}
+body header .back-img hr{
+    display: none;
+}
+body header .back-img :nth-child(2){
+display: none;
+}
+body header .back-img h2{
+text-align: center;
+font-size: 40px;
+color: var(--VeryLightGray);
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+top: 120px;
+padding: 0 40px;
+}
+body header .back-img p{
+    text-align: center;
+    position: absolute;
+    top: 240px;
+font-family: 'Regular';
+color: var(--GrayishBlue);
+padding: 0 25px;
+}
+body header .back-img button{
+width: 150px;
+position: absolute;
+    top: 370px;
+    right: 100px;
+    padding: 12px;
+    background-color: transparent;
+    border-color: white;
+
+}
+body header .back-img button a{
+    text-decoration: none;
+    color: var(--VeryLightGray);
+    font-family: 'THIN';
+    letter-spacing: 2px;
+
+}
+body header .back-img .pa-rightM{
+    position: absolute;
+    right: 0px;
+    top: 370px;
+}
+body header .back-img .pa-rightD{
+    display: none;
+}
+body section .different hr{
+width: 100px;
+
+margin: 99px 0 30px 130px;
+
+
+}
+body section .different h2{
+text-align: center;
+font-size: 38px;
+font-family: 'Regular' , 'THIN';
+color: var(--DarkViolet);
+margin-bottom: 60px;
+}
+body section .information{
+text-align: center;
+padding: 20px;
+}
+body section .information img{
+    width: 65px;
+
+}
+body section .information h4{
+    margin: 20px;
+    font-size: 27px;
+    color: var(--DarkViolet);
+font-weight: normal;
+font-family: 'Regular' ;
+}
+body section .information p{
+    margin: 50px 0;
+font-family: 'Regular' ;
+color: var(--DarkGrayishViolet);
+width: 95%;
+font-size: 13px;
+letter-spacing: 1px;
+
+}
+
+body section .find{
+    background-color: var(--DarkViolet);
+    height: 350px;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+body section .find .patt-how{
+    position: absolute;
+    right: 0;
+    width: 180px;
+    z-index: 1;
+    top:0px ;
+}
+body section .find :nth-child(2){
+    display: none;
+}
+body section .find h2{
+    color: var(--VeryLightGray);
+    padding: 40px 20px;
+    font-family: 'Regular' ;
+    font-weight: normal;
+    font-size: 35px;
+    position: absolute;
+    z-index: 3;
+    top: 35px;
+
+}
+
+body section .find button{
+    padding: 10px;
+    width: 160px;
+    background-color: transparent;
+    border-color: white;
+    position: absolute;
+    right: 70px;
+top: 250px;
+}
+body section .find button a{
+    color: var(--VeryLightGray);
+    font-family: 'Regular' ;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+body main{
+    position: relative;
+}
+body main .patt-foter{
+    margin-top: 120px;
+    width: 360px;
+    position: relative;
+}
+body main .patt-foterD{
+    display: none;
+}
+body main .logo-foter{
+
+    position: absolute;
+    top: 205px;
+    right: 120px;
+
+}
+ body main .social{
+    position: absolute;
+    top: 250px;
+    right: 104px;
+ }
+ body main .social img{
+    margin: 0 5px;
+ }
+ body main  hr{
+    margin-top: 20px;
+ }
+ body footer{
+    padding: 50px;
+    text-align: center;
+ 
+
+ }
+ body footer h2{
+    font-family: 'Regular' ;
+font-weight: normal;
+color: var(--DarkGrayishViolet);
+font-size: 20px;
+margin: 50px 0;
+text-transform: capitalize; }
+ body footer a{
+display: block;
+margin: 20px 0;
+text-decoration: none;
+font-family: 'Regular' ;
+font-weight: normal;
+color: var(--VeryDarkViolet);
+letter-spacing: 2px;
+
+ }
+ @media (min-width:1000px){
+
+    /*start nav*/
+    body nav .nav-list :nth-child(2) , body nav .list-inf .close , body nav .list-inf .patt-nav-M , body header .intro-m , body header .back-img .patt-intro{ 
+        display: none;
+    }
+body nav{
+    position: relative;
+    height: 50px;
+}
+body nav .nav-list {
+    margin: 40px 80px;
+
+}
+body nav .nav-list :first-child{
+width: 150px;
+
+}
+body nav .list-inf {
+height: 0;
+    display: block;
+padding: 0;
+z-index: 1;
+}
+
+body nav .list-inf ul{
+
+    position: absolute;
+    top: -50px;
+    right: 300px;
+}
+    body nav .list-inf ul li { 
+        display: inline;
+        justify-content: end;
+        align-items: end;
+margin: 0 30px;
+
+ 
+    }
+    body nav .list-inf ul li a{
+        color: var(--DarkGrayishViolet);
+    }
+    body nav .list-inf button{
+        width: 190px;
+        position: absolute;
+        top: -85px;
+        right: 100px;
+        border-color: var(--DarkGrayishViolet);
+       
+    }
+    body nav .list-inf button a{
+        color: var(--DarkGrayishViolet);
+    }
+
+    body header :nth-child(2){
+        display: block;
+width: 600px;
+        position: absolute;
+        right: 300px;
+        top: 250px;
+        z-index: 2;
+    }
+    body header .back-img{
+       
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+        padding-left: 200px;
+        
+        
+    }
+    body header .back-img h2{
+        text-align: left;
+        font-size: 70px;
+        width: 28%;
+       
+    }
+    body header .back-img p{
+        text-align: left;
+        font-size: 20px;
+        font-weight: thin;
+color: var(--VeryLightGray);
+        width: 700px;    
+       padding-top: 90px;
+       line-height: 1.5;
+       
+    }
+    body header .back-img button{
+        padding: 20px;
+        width: 190px;
+       position: absolute;
+        top: 450px;
+        left: 250px;
+      
+    }
+    body header .back-img button a {
+position: relative;
+z-index: 9;
+        color: white;
+    
+    }
+    body header .back-img hr{
+        display: block;
+        width: 150px;
+position: absolute;
+top: 80px;      
+left: 230px;  
+    }
+    body header .back-img :nth-child(2){
+        display: block;
+        width: 200px;
+        position: absolute;
+left: 0px;
+top: 400px;
+        z-index: 10;
+    }
+    body header .back-img .pa-rightM{
+        display: none;
+    }
+    body header .back-img .pa-rightD{
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 350px;
+        z-index: 10;
+    }
+ 
+    body section .different hr{
+      width: 140px;
+      margin-top: 150px;
+      margin-left: 250px;
+    }
+    body section .different h2{
+        font-size: 60px;
+        font-family: 'thin';
+        text-align: left;
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+    body section .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+
+    }
+    body section .information img{
+margin-right: 520px;
+
+}
+body section .information h4{
+  margin-top: 30px;
+margin-left: 20px;
+text-align: left;  
+
+}
+body section .information p{
+    font-size: 15px;
+    text-align: left;
+    margin-right: 250px;
+width: 350px;
+}
+body section .find .patt-how{
+    display: none;
+}
+body section .find :nth-child(2){
+display: block;
+width: 400px;
+position: absolute;
+right: 0;
+top:0px;
+}
+body section .find{
+position: relative;
+height: 230px;
+}
+body section .find h2{
+    text-align: left;
+    font-size: 40px;
+width: 390px;
+margin-left: 80px;
+margin-top: -15px;
+}
+body section .find button{
+    width: 150px;
+    position: absolute;
+    top: 93px;
+   right: 82px;
+   padding: 7px;
+}
+body section .find button a{
+    font-size: 15px;
+}
+
+body main {
+    position: relative;
+}
+body main .patt-foter{
+    display: none;
+}
+body main .patt-foterD{
+    display: block;
+    margin-top: 130px;
+    position: absolute;
+top: -250px;
+z-index: 3;
+}
+
+body main hr{
+    width: 85%;
+    margin-left: 160px;
+    margin-top: 350px;
+}
+body main .logo-foter{
+    position: absolute;
+    left: 180px;
+    top: -60px;
+
+}
+body main .social{
+    position: absolute;
+    top: -60px;
+    right: 140px;
+}
+body footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body footer .fott{
+    font-size: 20px;
+    padding: 0 120px;
+    text-align: left;
+    margin-right: 110px;
+
+}
+ }
+ 
